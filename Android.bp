@@ -185,8 +185,8 @@ art_cc_library {
     },
 
     apex_available: [
-        "com.android.art",
         "com.android.art.debug",
+        "com.android.art.release",
     ],
 
     static: {
@@ -212,7 +212,7 @@ art_cc_library {
     ],
 
     apex_available: [
-        "com.android.art",
+        "com.android.art.release",
         "com.android.art.debug",
     ],
 }
