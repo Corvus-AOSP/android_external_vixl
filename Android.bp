@@ -53,20 +53,6 @@
 
 package {
     default_visibility: ["//visibility:private"],
-    default_applicable_licenses: ["external_vixl_license"],
-}
-
-// Added automatically by a large-scale-change
-// See: http://go/android-license-faq
-license {
-    name: "external_vixl_license",
-    visibility: [":__subpackages__"],
-    license_kinds: [
-        "SPDX-license-identifier-BSD",
-    ],
-    license_text: [
-        "LICENCE",
-    ],
 }
 
 cc_defaults {
